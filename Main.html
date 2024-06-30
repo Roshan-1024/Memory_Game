@@ -1,0 +1,43 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="Images/Favicon.png">
+  </head>
+  <body>
+    <div id="container">
+      <div class="items" id="0" onclick="itemClicked(this.id)"></div>
+      <div class="items" id="1" onclick="itemClicked(this.id)"></div>
+      <div class="items" id="2" onclick="itemClicked(this.id)"></div>
+      <div class="items" id="3" onclick="itemClicked(this.id)"></div>
+      <div class="items" id="4" onclick="itemClicked(this.id)"></div>
+
+      <div class="items" id="5" onclick="itemClicked(this.id)"></div>
+      <div class="items" id="6" onclick="itemClicked(this.id)"></div>
+      <div class="items" id="7" onclick="itemClicked(this.id)"></div>
+      <div class="items" id="8" onclick="itemClicked(this.id)"></div>
+      <div class="items" id="9" onclick="itemClicked(this.id)"></div>
+
+      <div class="items" id="10" onclick="itemClicked(this.id)"></div>
+      <div class="items" id="11" onclick="itemClicked(this.id)"></div>
+      <div class="items" id="12" onclick="itemClicked(this.id)"></div>
+      <div class="items" id="13" onclick="itemClicked(this.id)"></div>
+      <div class="items" id="14" onclick="itemClicked(this.id)"></div>
+
+      <div class="items" id="15" onclick="itemClicked(this.id)"></div>
+      <div class="items" id="16" onclick="itemClicked(this.id)"></div>
+      <div class="items" id="17" onclick="itemClicked(this.id)"></div>
+      <div class="items" id="18" onclick="itemClicked(this.id)"></div>
+      <div class="items" id="19" onclick="itemClicked(this.id)"></div>
+    </div>
+
+    <div id="heading">Memory Game</div>
+    <div id="score">00</div>
+    <img src="Images/Direction.png" id="direction" draggable="false">
+    <input type="button" id="stopBtn" value="Stop" onclick="endGame()">
+    <input type="button" id="startBtn" value="Start" onclick="startGame()">
+
+    <script src="settings.js" charset="utf-8"></script>
+  </body>
+</html>

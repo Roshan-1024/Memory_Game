@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Kalam&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+  background-image: linear-gradient(to bottom, #abdcff, #89ccff, #67baff, #42a9ff, #0396ff);
+}
+
+#container{
+  height: 100%;
+  display: inline-block;
+  background: white;
+}
+
+.items{
+  display: inline-block;
+
+  float: left;
+  background-image: url("Images/Brain.png");
+  background-size: 100% 100%;
+}
+
+
+
+#startBtn, #stopBtn{
+  display: inline-block;
+  background: #1b328f;
+  width: 100px;
+  height: 50px;
+  border-radius: 25px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: white;
+  float: right;
+  cursor: pointer;
+  border: 0;
+  font-size: 18px;
+}
+#startBtn:hover, #stopBtn:hover{
+  box-shadow: -3px 18px 42px #1b328f;
+}
+#startBtn{
+  position: absolute;
+  top: 500px;
+  right: 330px;
+}
+
+#stopBtn{
+  position: absolute;
+  top: 500px;
+  right: 100px;
+}
+
+#heading{
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 120px;
+  font-family: 'Kalam', cursive;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+#direction{
+  position: absolute;
+  top: 200px;
+  right: 70px;
+  width: 228.65px;
+  height: 250px;
+}
+
+#score{
+  position: absolute;
+  background: white;
+  top: 280px;
+  right: 330px;
+  height: 70px;
+  width: 100px;
+  border-radius: 50%;
+  font-size: 30px;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30px;
+}
